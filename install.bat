@@ -124,7 +124,7 @@ ECHO Waiting for file to be downloaded...
 ECHO.
 ECHO.
 
-TIMEOUT 2 >nul
+TIMEOUT 5 >nul
 
 IF EXIST %downloaded_file% (taskkill /F /IM chrome.exe /T & ECHO. & ECHO. & ECHO File downloaded! & GOTO check_downloaded_file) ELSE (GOTO wait_download)
 
