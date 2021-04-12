@@ -1,0 +1,26 @@
+{
+  "email": "seu_email",
+  "password": "sua_senha",
+
+  "run_at_time": "",
+
+  "meeting_mode": 2,
+  "organisation_num" : 1,
+  "random_delay": true,
+  "check_interval": 10,
+
+  "join_message": "",
+
+  "auto_leave_after_min": 90,
+  "leave_if_last": true,
+  "leave_threshold_number": "",
+  "leave_threshold_percentage": "80",
+  "pause_search": true,
+
+  "headless" : false,
+  "mute_audio": false,
+  "chrome_type": "google-chrome",
+
+  "blacklist": [],
+  "blacklist_meeting_re": ""
+}
