@@ -48,7 +48,7 @@ TIMEOUT 3 >nul
 
 START chrome --restore-last-session
 
-START "C:\Users\%USERNAME%\Desktop\Script_Teams-master\config.json"
+START NOTEPAD "C:\Users\%USERNAME%\Desktop\Script_Teams-master\config.json"
 
 EXIT
 
