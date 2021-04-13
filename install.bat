@@ -50,6 +50,14 @@ START chrome --restore-last-session
 
 START NOTEPAD "C:\Users\%USERNAME%\Desktop\Script_Teams-master\config.json"
 
+ECHO.
+ECHO.
+ECHO Everything OK! You can change the confg.json file now! Thanks for downloading the script!
+ECHO.
+ECHO.
+
+PAUSE
+
 EXIT
 
 
